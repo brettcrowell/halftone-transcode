@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 var meow = require('meow');
+var _ = require('underscore')._;
 var halftoneTranscode = require('./');
 
 var cli = meow({
